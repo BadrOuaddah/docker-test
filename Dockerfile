@@ -1,5 +1,4 @@
-FROM openjdk:19
-RUN mkdir /app
-COPY out/production/Docker_test/ /app
-WORKDIR /app
-CMD java Hello
+FROM tomcat:10-jdk17
+ADD target/MyWebApp.war /usr/local/tomcat/webapps/MyWebApp.war
+EXPOSE 8080
+CMD ["catalina.sh", "run"]
