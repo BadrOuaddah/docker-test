@@ -6,7 +6,7 @@ This is a simple Docker application that prints "Hello World!" using Java.
 ```
 ## Prerequisites
 
-- Docker: [Installation Guide](https://docs.docker.com/get-docker/)
+- Docker : [Installation Guide](https://docs.docker.com/get-docker/)
 - Git : [Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 ## Getting Started
@@ -32,17 +32,20 @@ WORKDIR /app
 CMD java Main
 ```
 
-2.Build the Docker image:
+2. Build the Docker image:
 
 ```Bash
-docker build -t docker-test .
+docker build -t docker:1.0 .
 ```
 
-3.Run the Docker container:
+3. Run the Docker container:
 
 ```bash
-docker run docker-test
+docker run docker:1.0
 ```
 
 You should see the output "Hello World!" printed in the console.
 
+```cmd
+> Hello World!
+```
