@@ -47,5 +47,5 @@ CMD ["catalina.sh", "run"]
 6. Use bridge networks:
 
 ```CMD
-docker network create my-network
+> docker network create my-network
 ```
