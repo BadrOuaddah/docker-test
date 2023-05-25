@@ -44,3 +44,8 @@ CMD ["catalina.sh", "run"]
 > docker run --name app -d -p 8080:8080 my-web-app:1.0
 ```
 
+6. Use bridge networks:
+
+```CMD
+docker network create my-network
+```
