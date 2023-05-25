@@ -1,4 +1,4 @@
-# Docker Test Application
+# Docker Test Application :computer::whale:
 
 This is a simple Docker application that prints "Hello World!" using Java.
 ```java
